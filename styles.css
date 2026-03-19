@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(49, 41, 81);
 }
 
 .header {
@@ -15,8 +16,8 @@ body {
     align-items: center;
     justify-content: flex-start;
     padding-left: 20px;
-    color:rgb(0, 0, 0);
-    background-color: lightgray;
+    color:rgb(211, 211, 211);
+    background-color: rgb(18, 18, 34);
 }
 
 .desc {
@@ -24,12 +25,14 @@ body {
     justify-content: flex-start;
     margin-top: 0;
     margin-bottom: auto;
+    color: white;
+    padding-left: 15px;
 }
 
 .footer {
     display:flex;
     justify-content: space-between;
-    background-color: lightgray;
+    background-color: rgb(18, 18, 34);
 }
 
 .content {
@@ -66,7 +69,7 @@ body {
 .card {
     flex-basis:220px;
     display:flex;
-    background-color: lightgray;
+    background-color: rgb(31, 27, 41);
     border-radius: 25px;
     padding: 8px 8px 3px;
     flex-direction: column;
@@ -92,7 +95,7 @@ p.recipeName {
 
 a {
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color: whitesmoke;
 }
 
 #frame1 {
