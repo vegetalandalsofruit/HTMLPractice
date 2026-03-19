@@ -64,7 +64,7 @@ body {
 }
 
 .card {
-    flex-basis:200px;
+    flex-basis:220px;
     display:flex;
     background-color: lightgray;
     border-radius: 25px;
@@ -81,10 +81,34 @@ img.recipeImage {
 
 p.recipeName {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.frame {
+    min-height:145px;
+    border-radius: 25px;
 }
 
 a {
     text-decoration: none;
     color:rgb(0, 0, 0);
+}
+
+#frame1 {
+    background-image: url(img/pancakes.png);
+    background-size: 300px;
+    background-position: center;
+}
+
+#frame2 {
+    background-image: url(img/thebox.png);
+    background-size: 300px;
+    background-position: center;    
+}
+
+#frame3 {
+    background-image: url(img/salad.jpg);
+    background-size: 300px;
+    background-position: center;    
 }
