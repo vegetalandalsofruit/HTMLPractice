@@ -2,6 +2,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 1080px) {
+    .recipeInfo {
+        flex-wrap: wrap;
+    }
+}
+
 body {
     height: 100vh;
     margin: 0;
